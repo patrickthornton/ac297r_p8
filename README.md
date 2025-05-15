@@ -24,6 +24,3 @@ To run training, start with one of the ResNet101 vanilla files ending in `run_th
 The `evaluation_only_*` files do not need to be run at this point. They are for internal benchmarking and will be updated once parameters are finalized. Their structure can still serve as a reference. You can also run `different_views_comparison.ipynb` to get a better idea of how the different views (front, side, motion) contribute to total model performance using a simple vanilla ResNet101 as a baseline.
 
 You can download the pretrained ResNet101 weight file used in our models from [https://download.pytorch.org/models/resnet101-63fe2227.pth](https://download.pytorch.org/models/resnet101-63fe2227.pth) and place it in the appropriate location on your drive.
-
-Update: files ending with with_mask are better performing models compared to old ones.
-To run files with ending with_mask, you might want to build masks caches at first. You can run cache_preparation at first.
