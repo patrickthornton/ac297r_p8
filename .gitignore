@@ -1,0 +1,10 @@
+# python
+*.py[cod]
+__pycache__
+**/.ipynb_checkpoints
+pyrightconfig.json
+**/.ruff_cache
+
+# mac
+.DS_Store
+Desktop.ini
